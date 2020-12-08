@@ -1,0 +1,111 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\Lab3.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m2560def.inc</FILE>
+  <FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\keyboard.inc</FILE>
+  <FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\delay.inc</FILE>
+  <FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE>
+  <FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\monitor.inc</FILE>
+  <FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\stats.inc</FILE>
+  <FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\dice.inc</FILE>
+  <FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\stat_data.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\Debug\Lab3.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Lab3.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Lab3.map</FILE>
+  <FILE>Lab3.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\Lab3.asm</FILE><LINE>40</LINE></init>
+  <keys><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\keyboard.inc</FILE><LINE>27</LINE></keys>
+  <read_keyboard><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\keyboard.inc</FILE><LINE>49</LINE></read_keyboard>
+  <read_keyboard_num><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\keyboard.inc</FILE><LINE>100</LINE></read_keyboard_num>
+  <read_keyboard_dice><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\keyboard.inc</FILE><LINE>74</LINE></read_keyboard_dice>
+  <delay_ms><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\delay.inc</FILE><LINE>63</LINE></delay_ms>
+  <END><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\keyboard.inc</FILE><LINE>215</LINE></END>
+  <delay_1_micros><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\delay.inc</FILE><LINE>15</LINE></delay_1_micros>
+  <delay_micros><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\delay.inc</FILE><LINE>34</LINE></delay_micros>
+  <Loop_micros><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\delay.inc</FILE><LINE>36</LINE></Loop_micros>
+  <L1_ms><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\delay.inc</FILE><LINE>65</LINE></L1_ms>
+  <delay_1_s><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\delay.inc</FILE><LINE>85</LINE></delay_1_s>
+  <delay_s><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\delay.inc</FILE><LINE>105</LINE></delay_s>
+  <L1_s><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\delay.inc</FILE><LINE>107</LINE></L1_s>
+  <chars><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>24</LINE></chars>
+  <Str_1><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>105</LINE></Str_1>
+  <Str_press_2><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>109</LINE></Str_press_2>
+  <Str_press_3><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>112</LINE></Str_press_3>
+  <Str_press_8><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>115</LINE></Str_press_8>
+  <Str_press_9><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>118</LINE></Str_press_9>
+  <Str_rolling><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>121</LINE></Str_rolling>
+  <Str_value><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>124</LINE></Str_value>
+  <lcd_init><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>208</LINE></lcd_init>
+  <lcd_write_byte><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>304</LINE></lcd_write_byte>
+  <lcd_write_string><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>243</LINE></lcd_write_string>
+  <NxtChar><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>244</LINE></NxtChar>
+  <Str_END><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>257</LINE></Str_END>
+  <lcd_write_char><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>271</LINE></lcd_write_char>
+  <mask_bit><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>308</LINE></mask_bit>
+  <bit_is_1><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>315</LINE></bit_is_1>
+  <write_to_lcd><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>317</LINE></write_to_lcd>
+  <lcd_clear_display><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>334</LINE></lcd_clear_display>
+  <clear_loop_0><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>340</LINE></clear_loop_0>
+  <clear_loop_1><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>349</LINE></clear_loop_1>
+  <clear_loop_2><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>358</LINE></clear_loop_2>
+  <clear_loop_3><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>367</LINE></clear_loop_3>
+  <clear_loop_4><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>376</LINE></clear_loop_4>
+  <clear_loop_5><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>385</LINE></clear_loop_5>
+  <write_welcome><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>396</LINE></write_welcome>
+  <Nxt1><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>399</LINE></Nxt1>
+  <Str_1_END><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\lcd.inc</FILE><LINE>412</LINE></Str_1_END>
+  <monitorstr><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\monitor.inc</FILE><LINE>13</LINE></monitorstr>
+  <init_monitor><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\monitor.inc</FILE><LINE>16</LINE></init_monitor>
+  <moni_read_keyboard><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\monitor.inc</FILE><LINE>20</LINE></moni_read_keyboard>
+  <monireadquit><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\monitor.inc</FILE><LINE>36</LINE></monireadquit>
+  <moni_akey><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\monitor.inc</FILE><LINE>30</LINE></moni_akey>
+  <moni_print_address><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\monitor.inc</FILE><LINE>39</LINE></moni_print_address>
+  <printhex><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\stats.inc</FILE><LINE>39</LINE></printhex>
+  <monitor><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\monitor.inc</FILE><LINE>57</LINE></monitor>
+  <moni_next><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\monitor.inc</FILE><LINE>63</LINE></moni_next>
+  <moniquit><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\monitor.inc</FILE><LINE>86</LINE></moniquit>
+  <moni_more><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\monitor.inc</FILE><LINE>79</LINE></moni_more>
+  <clearstring><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\stats.inc</FILE><LINE>13</LINE></clearstring>
+  <totalstring><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\stats.inc</FILE><LINE>15</LINE></totalstring>
+  <countones><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\stats.inc</FILE><LINE>17</LINE></countones>
+  <counttwos><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\stats.inc</FILE><LINE>19</LINE></counttwos>
+  <countthrees><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\stats.inc</FILE><LINE>21</LINE></countthrees>
+  <countfours><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\stats.inc</FILE><LINE>23</LINE></countfours>
+  <countfives><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\stats.inc</FILE><LINE>25</LINE></countfives>
+  <countsixs><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\stats.inc</FILE><LINE>27</LINE></countsixs>
+  <init_stat><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\stats.inc</FILE><LINE>32</LINE></init_stat>
+  <clear_stat><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\stat_data.inc</FILE><LINE>75</LINE></clear_stat>
+  <hexconv><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\stats.inc</FILE><LINE>38</LINE></hexconv>
+  <showstat><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\stats.inc</FILE><LINE>63</LINE></showstat>
+  <get_stat><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\stat_data.inc</FILE><LINE>56</LINE></get_stat>
+  <clearstat><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\stats.inc</FILE><LINE>116</LINE></clearstat>
+  <roll_dice><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\dice.inc</FILE><LINE>26</LINE></roll_dice>
+  <load><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\dice.inc</FILE><LINE>28</LINE></load>
+  <roll><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\dice.inc</FILE><LINE>37</LINE></roll>
+  <statistical_data><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\stat_data.inc</FILE><LINE>16</LINE></statistical_data>
+  <store_stat><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\stat_data.inc</FILE><LINE>29</LINE></store_stat>
+  <init_pins><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\Lab3.asm</FILE><LINE>59</LINE></init_pins>
+  <main><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\Lab3.asm</FILE><LINE>91</LINE></main>
+  <main_loop><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\Lab3.asm</FILE><LINE>94</LINE></main_loop>
+  <menu_2><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\Lab3.asm</FILE><LINE>125</LINE></menu_2>
+  <menu_3><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\Lab3.asm</FILE><LINE>147</LINE></menu_3>
+  <menu_8><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\Lab3.asm</FILE><LINE>151</LINE></menu_8>
+  <menu_9><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab3\Lab3\Lab3.asm</FILE><LINE>155</LINE></menu_9>
+ </LABELS>
+</ASSEMBLER_INFO>
