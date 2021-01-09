@@ -1,0 +1,62 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\Lab2.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m2560def.inc</FILE>
+  <FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\keyboard.inc</FILE>
+  <FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\delay.inc</FILE>
+  <FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\lcd.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\Debug\Lab2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Lab2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Lab2.map</FILE>
+  <FILE>Lab2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\Lab2.asm</FILE><LINE>31</LINE></init>
+  <keys><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\keyboard.inc</FILE><LINE>25</LINE></keys>
+  <read_keyboard><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\keyboard.inc</FILE><LINE>45</LINE></read_keyboard>
+  <read_keyboard_num><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\keyboard.inc</FILE><LINE>60</LINE></read_keyboard_num>
+  <END><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\keyboard.inc</FILE><LINE>178</LINE></END>
+  <delay_1_micros><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\delay.inc</FILE><LINE>12</LINE></delay_1_micros>
+  <delay_micros><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\delay.inc</FILE><LINE>31</LINE></delay_micros>
+  <Loop_micros><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\delay.inc</FILE><LINE>32</LINE></Loop_micros>
+  <delay_ms><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\delay.inc</FILE><LINE>61</LINE></delay_ms>
+  <L1_ms><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\delay.inc</FILE><LINE>63</LINE></L1_ms>
+  <delay_1_s><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\delay.inc</FILE><LINE>84</LINE></delay_1_s>
+  <delay_s><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\delay.inc</FILE><LINE>104</LINE></delay_s>
+  <L1_s><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\delay.inc</FILE><LINE>106</LINE></L1_s>
+  <chars><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\lcd.inc</FILE><LINE>22</LINE></chars>
+  <lcd_init><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\lcd.inc</FILE><LINE>177</LINE></lcd_init>
+  <lcd_write_byte><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\lcd.inc</FILE><LINE>263</LINE></lcd_write_byte>
+  <lcd_write_string><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\lcd.inc</FILE><LINE>212</LINE></lcd_write_string>
+  <lcd_write_char><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\lcd.inc</FILE><LINE>231</LINE></lcd_write_char>
+  <mask_bit><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\lcd.inc</FILE><LINE>267</LINE></mask_bit>
+  <bit_is_1><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\lcd.inc</FILE><LINE>274</LINE></bit_is_1>
+  <write_to_lcd><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\lcd.inc</FILE><LINE>276</LINE></write_to_lcd>
+  <lcd_clear_display><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\lcd.inc</FILE><LINE>293</LINE></lcd_clear_display>
+  <clear_loop_0><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\lcd.inc</FILE><LINE>299</LINE></clear_loop_0>
+  <clear_loop_1><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\lcd.inc</FILE><LINE>308</LINE></clear_loop_1>
+  <clear_loop_2><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\lcd.inc</FILE><LINE>317</LINE></clear_loop_2>
+  <clear_loop_3><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\lcd.inc</FILE><LINE>326</LINE></clear_loop_3>
+  <clear_loop_4><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\lcd.inc</FILE><LINE>335</LINE></clear_loop_4>
+  <clear_loop_5><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\lcd.inc</FILE><LINE>344</LINE></clear_loop_5>
+  <init_pins><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\Lab2.asm</FILE><LINE>43</LINE></init_pins>
+  <main><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\Lab2.asm</FILE><LINE>83</LINE></main>
+  <main_loop><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\Lab2.asm</FILE><LINE>107</LINE></main_loop>
+  <inc_counter><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\Lab2.asm</FILE><LINE>130</LINE></inc_counter>
+  <back_from_increment><FILE>C:\Users\Robin\Documents\Atmel Studio\7.0\Lab2\Lab2\Lab2.asm</FILE><LINE>122</LINE></back_from_increment>
+ </LABELS>
+</ASSEMBLER_INFO>
